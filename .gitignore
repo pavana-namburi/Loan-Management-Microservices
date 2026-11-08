@@ -1,0 +1,5 @@
+# Create root .gitignore and add .idea to it
+echo ".idea/" >> .gitignore
+echo "**/.idea/" >> .gitignore
+echo "**/target/" >> .gitignore
+echo "**/*.iml" >> .gitignore
